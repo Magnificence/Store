@@ -5,6 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"build": "npx tsc && cp .npmrc dist/.npmrc && cp package.json dist/package.json && cd dist && zip -r Archive.zip . && cd ..",
+		"deploy": "chmod +x ./bin/deploy.sh && bash ./bin/deploy.sh",
 		"start": "node server",
 		"jasmine": "jasmine",
 		"test": "SET NODE_ENV=TEST&& npx db-migrate --env test up && npm run build && npm run jasmine && npx db-migrate --env test reset"
