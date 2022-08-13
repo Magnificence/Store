@@ -17,3 +17,8 @@ jobs:
           name: Build
           command: |
             npm run build
+      - run:
+          name: Deploy
+          command: |
+            npm run deploy
+
