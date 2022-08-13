@@ -1,0 +1,1 @@
+CREATE TABLE orders (id SERIAL PRIMARY KEY, user_id int REFERENCES users(id) NOT NULL, order_status VARCHAR(20) NOT NULL);
