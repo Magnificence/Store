@@ -1,9 +1,0 @@
-DB_HOST=database-1.cvkikxi3ysfq.us-east-1.rds.amazonaws.com
-DB_NAME=postgres
-DB_TEST=store_test
-DB_USER=mgf
-DB_PASSWORD=A1Cwtsmdtu2
-PEPPER=peppermeup
-SALT_ROUNDS=10
-TOKEN_SECRET=thisistopsecret
-ENV=DEV
